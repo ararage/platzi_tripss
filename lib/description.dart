@@ -60,8 +60,8 @@ class DescriptionPlace extends StatelessWidget{
             fontWeight: FontWeight.bold,
             color: Color(0xFF56575a)
         ),
-
       ),
+      width: MediaQuery.of(context).size.width*0.65,
     );
 
     final title_stars = Row(
