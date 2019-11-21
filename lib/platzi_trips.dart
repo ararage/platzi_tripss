@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'home_trips.dart';
 import 'search_trips.dart';
-import 'profile_trips.dart';
+import 'profile//profile_trips.dart';
 
 class PlatziTrips extends StatefulWidget{
   @override
@@ -31,7 +31,6 @@ class _PlatziTrips extends State<PlatziTrips>{
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Scaffold(
       body: tabs[indexTab],
       bottomNavigationBar: Theme(

@@ -23,5 +23,4 @@ class HomeTrips extends StatelessWidget{
       ),
     );
   }
-
 }
